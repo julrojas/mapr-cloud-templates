@@ -265,7 +265,6 @@
     {
       "name": "[variables('maprNetworkTemplate')]",
       "type": "Microsoft.Resources/deployments",
-      "condition": "[equals(parameters('vnetNewOrExisting'), 'new')]",
       "apiVersion": "[variables('deploymentsVersion')]",
       "properties": {
         "mode": "Incremental",
