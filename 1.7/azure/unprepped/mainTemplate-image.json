@@ -209,6 +209,7 @@
     },
     "location": {
       "type": "string",
+      "defaultValue": "westeurope",
       "metadata": {
         "description": "Region"
       }
