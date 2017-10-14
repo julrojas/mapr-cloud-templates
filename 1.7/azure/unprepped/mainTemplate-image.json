@@ -4,13 +4,14 @@
   "parameters": {
     "artifactsBaseUrl": {
       "type": "string",
-      "defaultValue": "https://raw.githubusercontent.com/mapr/mapr-cloud-templates/master/1.7/azure/unprepped",
+      "defaultValue": "https://raw.githubusercontent.com/julrojas/mapr-cloud-templates/master/1.7/azure/unprepped",
       "metadata": {
         "artifactsBaseUrl": "Base URL of the Publisher Template gallery package"
       }
     },
     "adminUsername": {
       "type": "string",
+      "defaultValue": "mapr",
       "metadata": {
         "description": "User name for the virtual machine"
       }
@@ -28,7 +29,7 @@
     },
     "adminPassword": {
       "type": "securestring",
-      "defaultValue": "",
+      "defaultValue": "admin!234",
       "metadata": {
         "description": "Password for the virtual machine"
       }
@@ -42,7 +43,7 @@
     },
     "clusterName": {
       "type": "string",
-      "defaultValue": "my.cluster.com"
+      "defaultValue": "jr.cluster.com"
     },
     "clusterAdminPassword": {
       "type": "securestring",
@@ -138,12 +139,14 @@
     },
     "vnetName": {
       "type": "string",
+      "defaultValue": "vnetjrname",
       "metadata": {
         "description": "Virtual network name"
       }
     },
     "vnetResourceGroup": {
       "type": "string",
+      "defaultValue": "vnetjrresource",
       "metadata": {
         "description": "Virtual network resource group"
       }
