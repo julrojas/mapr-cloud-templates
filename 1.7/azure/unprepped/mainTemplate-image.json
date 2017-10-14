@@ -474,7 +474,7 @@
       "value": "[parameters('adminUsername')]"
     },
     "ClusterName": {
-      "type": "string",
+       "type": "string",
       "value": "[parameters('clusterName')]"
     },
     "MaprInstallerUrl": {
